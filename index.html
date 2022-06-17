@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+
+    <link rel="stylesheet" href="erp.css">
+    <script src="response.js"></script>
+
+<body>
+
+    <center>
+        <h1>Team TEDxKIET</h1>
+    </center>
+    <center>
+        <div class="sign">
+            Join Our Team
+        </div>       
+    </center>
+    <form onsubmit="takevalue()">
+        <div class="scroll" onscroll>
+            <center>
+                <h2>Registration Form</h2>
+            </center>
+            <p>
+                <label for="name" id="">Name:</label><br>
+                <input name="myName" type="text" placeholder="Enter your full name" id="name" class="format" required>
+            </p>
+            <p>
+                <label for="dob" id="">Date of Birth:</label>
+                <br><input type="date" name="date of birth" id="date" class="drop" required>
+            </p>
+
+            <p>
+                <label for="" id="">Gender:</label><br>
+                Male<input type="radio" name="myGender" value="Female">
+                Female<input type="radio"  name="myGender" value="Male">
+                Others<input type="radio" name="myGender" value="Others">
+            </p>
+
+
+            <p>
+                <label for="" id="">Are you a hosteller ?&nbsp; </label> <input type="checkbox" name="" id="check">
+            </p>
+            <p>
+                <label for="" id="year">Year:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <select name="" id="" class="drop" required>
+                    <option value="">--Select year of study--</option>
+                    <option value="">1st Year</option>
+                    <option value="">2nd Year</option>
+                    <option value="">3rd Year</option>
+                    <option value="">4th Year</option>
+                </select>
+            </p>
+            <P>
+                <label for="" id="">Branch:&nbsp; </label>
+                <select name="" id="" class="drop" required>
+                    <option value="">--Select your branch--</option>
+                    <option value="">CSE</option>
+                    <option value="">CS</option>
+                    <option value="">CSIT</option>
+                    <option value="">CSAI</option>
+                    <option value="">CSME</option>
+                    <option value="">IT</option>
+
+                </select>
+            </p>
+
+            <p>
+                <label for="" id="">Domain: </label>
+                <select name="" id="" class="drop" required>
+                    <option value="">--Choose your domain--</option>
+                    <option value="">Web Development</option>
+                    <option value="">Android Development</option>
+                    <option value="">IOS Development</option>
+                </select>
+            </p>
+
+
+            <p>
+                <label for="" id="">Tell us something about yourself:</label>
+            </p>
+            <p>
+                <textarea name="" id="about" cols="60" rows="10" placeholder="Type here...."></textarea required>
+            </p>
+
+            <p>
+                <label for="">Upload your work:</label><br>
+                <input type="file" name="" id="">
+            </p>
+            <fieldset style="width: 20rem;">
+                <legend>Contact Info:</legend>
+                <p>
+                    <label for="" id="">Email-Id: </label>
+                    <input type="email" name="" id="email" placeholder="Enter your Email-Id" class="format" required>
+                </p>
+                <p>
+                    <label for="" id="">Mobile:</label>
+                    <input type="number" name="" id="mobile" placeholder="Enter your mobile number" class="format" required>
+                </p>
+            </fieldset>
+            </br>
+            <p>
+                <center>
+                    <!-- <a href="submit.html"> -->
+                    
+                    <!-- <button type="button" value="Submit" onclick="savedata()" class="button">
+                    </button> -->   <input type="submit" value="Submit"class="button"> 
+                <!-- </a> -->
+                &nbsp;
+                    <input type="reset" value="Reset" id="" class="button">
+                </center>
+            <p>
+
+                <strong><font>In case of any query you may mail us at:&nbsp;</font></strong><a
+                    href="mailto:erp@kiet.edu">erp@kiet.edu</a>
+            </p>
+        </div>
+    </form>
+    <div class="flex">
+        <center>For more updates and details, follow us on our social media handles: &nbsp;&nbsp;
+            <img src="j.png" width="30px" height="30px">
+            <a href="">Instagram</a>
+            <img src="k.png" width="30px" height="30px">
+            <a href="">Facebook</a>
+            <img src="l.png" width="30px" height="30px">
+            <a href="">LinkedIn</a>
+        </center>
+    </div>
+</body>
+</html>

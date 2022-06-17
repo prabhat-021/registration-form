@@ -1,0 +1,116 @@
+body {
+    background-image: url("https://wallpapercave.com/wp/wp9142477.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+div.scroll {
+    margin-bottom: 10px;
+    width: 35rem;
+    height: 65vh;
+    overflow: scroll;
+}
+
+h1 {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 3vh;
+    width: 45vw;
+    margin-top: 25px;
+    margin-bottom: -18px;
+    font-size: 100px;
+    color: rgb(20, 228, 20);
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 35px;
+    padding-bottom: 10px;
+    color: black;
+}
+
+label {
+    font-size: 22px;
+    color: black;
+    font-weight: 550;
+    /* font-family: sans-serif; */
+}
+
+option {
+    color: black;
+}
+
+p {
+    color: black;
+}
+
+form {
+    margin-left: 20rem;
+    width: 33rem;
+    padding-left: 45px;
+    padding-right: 45px;
+    border-radius: 20px;
+    padding-top: 5px;
+    background-color: white;
+    border-bottom: solid 10px yellow;
+    border-top: solid 10px yellow;
+}
+
+.format {
+    font-size: 18px;
+    height: 25px;
+    width: 30rem;
+    border: none;
+    border-bottom: solid 2px black;
+}
+
+.button {
+    height: 30px;
+    width: 10px;
+    color: white;
+    background-color: rgb(50, 168, 50);
+}
+
+.drop {
+    text-align: center;
+    width: 210px;
+    border:solid 3px mediumslateblue;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 13px;
+}
+
+div.flex {
+    margin-top: 40px;
+    border: solid black;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    font-size: 22px;
+}
+
+a {
+    color: black;
+    font-size: 20px;
+}
+
+.button {
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 5px;
+    border-color: black;
+    font-weight: bold;
+}
+.sign{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    /* margin-left: 416px; */
+    color: ghostwhite;
+    font-size: 90px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;        
+}
+
